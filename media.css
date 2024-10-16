@@ -1,0 +1,18 @@
+@media screen and (max-width: 1200px) {
+    .no {
+        display: none;
+        width: 0;
+        height: 0;
+
+    }
+    .yes {
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 767px) {
+    .no-c {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+header {
+    height: 20vh;
+    
+    padding-top: 5vh;
+    padding-left: 10%;
+
+    font-family: "Playfair Display", serif;
+    color: white;
+}
+
+main {
+    font-family: "Playfair Display", serif;
+}
+main h3 {
+    font-style: italic;
+}
+
+br {
+    margin-bottom: 2%;
+}
+
+footer {
+    font-family: "Playfair Display", serif;
+    margin-top: 2%;
+}
+
+a { 
+    color: black;
+    text-decoration: underline dotted;
+}
+a:hover {
+    color:rgb(66, 137, 204);
+}
+
+.exit {
+    margin-bottom: 10%;
+}
+
+@media screen and (max-width: 1000px) {
+    header {
+        height: 25vh;
+    }
+}
+
